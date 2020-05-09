@@ -50,6 +50,7 @@ mqttc.on_message = on_message
 mqttc.on_connect = on_connect
 mqttc.on_publish = on_publish
 mqttc.on_subscribe = on_subscribe
+
 # Uncomment to enable debug messages
 mqttc.on_log = on_log
 mqttc.connect("broker.hivemq.com", 1883, 60)
